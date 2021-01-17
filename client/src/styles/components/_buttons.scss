@@ -1,0 +1,70 @@
+.login-button {
+  background-color: $login-button-colour;
+  border: $spacing-primary solid $login-button-colour;
+  border-radius: $spacing-xs;
+  color: #fff;
+  padding: $spacing-sm $spacing-xl;
+  text-transform: uppercase;
+  &:hover,
+  &:focus,
+  &:active {
+    border-width: $spacing-secondary;
+    background-color: transparent;
+    color: $login-button-colour;
+  }
+}
+
+.get-it-on-chrome {
+  border: $spacing-primary solid $btn-primary-colour;
+  background-color: $btn-primary-colour;
+  color: #fff;
+  &:hover,
+  &:focus,
+  &:active {
+    border: $spacing-secondary solid $btn-primary-colour;
+    background-color: transparent;
+    color: $btn-primary-colour;
+  }
+}
+.get-it-on-firefox {
+  border: $spacing-primary solid $btn-secondary-colour;
+  background-color: $btn-secondary-colour;
+  color: $very-dark-blue;
+  &:hover,
+  &:focus,
+  &:active {
+    border: $spacing-secondary solid $grayish-blue;
+    background-color: transparent;
+  }
+}
+
+.more-info-button {
+  background-color: $btn-primary-colour;
+  border: $spacing-primary solid $btn-primary-colour;
+  border-radius: $spacing-sm;
+  padding: $spacing-md $spacing-lg;
+  color: #fff;
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: transparent;
+    border: $spacing-secondary solid $btn-primary-colour;
+    color: $btn-primary-colour;
+  }
+}
+
+.btn-download {
+  border: $spacing-primary solid $btn-primary-colour;
+  border-radius: $spacing-sm;
+  background-color: $btn-primary-colour;
+  color: #fff;
+  width: 100%;
+  padding: $spacing-md $spacing-lg;
+  &:hover,
+  &:focus,
+  &:active {
+    border: $spacing-secondary solid $btn-primary-colour;
+    background-color: transparent;
+    color: $btn-primary-colour;
+  }
+}
